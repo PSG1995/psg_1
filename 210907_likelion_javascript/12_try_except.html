@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+    function first_start(){
+    try{
+        aalert("hello welcome");
+        }catch(err){
+    document.getElementById("demo_err").innerHTML = err.message;
+        }
+    }
+    </script>
+</head>
+<body>
+<p id="demo_err" onmouseover="this.style.backgroundColor='orange'">에러내용</p>
+<script>first_start()</script>
+</body>
+</html>
