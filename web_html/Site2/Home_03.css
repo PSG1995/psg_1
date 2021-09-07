@@ -1,0 +1,143 @@
+.u-section-1 {
+  background-image: none;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 798px;
+}
+
+.u-section-1 .u-layout-wrap-1 {
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+
+.u-section-1 .u-image-1 {
+  min-height: 738px;
+  background-image: url("images/lotto.jpg");
+  background-position: 50% 8.97%;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 30px;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 8.125rem;
+  letter-spacing: 8px;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0 -574px 0 346px;
+}
+
+.u-section-1 .u-layout-cell-2 {
+  min-height: 738px;
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding: 30px;
+}
+
+.u-section-1 .u-text-2 {
+  line-height: 2;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  margin: 60px 0 0 auto;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 645px;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 609px;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: auto;
+    margin: 298px -481px -9px 298px;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 609px;
+  }
+
+  .u-section-1 .u-text-2 {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 697px;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 637px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 6rem;
+    margin: 385px -373px 0 137px;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 637px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1023px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    margin-bottom: 42px;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 626px;
+    background-position: 50% 0%;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-top: 391px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 100px;
+  }
+
+  .u-section-1 .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 618px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    margin-bottom: 60px;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 422px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 4.5rem;
+    letter-spacing: 0px;
+    margin-top: 332px;
+  }
+}
