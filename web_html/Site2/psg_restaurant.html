@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_ac481a1919c94c9abed3b725181336da {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_ac481a1919c94c9abed3b725181336da" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_ac481a1919c94c9abed3b725181336da = L.map(
+        'map_ac481a1919c94c9abed3b725181336da', {
+        center: [37.47736944156418, 126.71481204110223],
+        zoom: 10,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+
+    
+    var tile_layer_6057997c49174158b6d4cd63a51db3ea = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_ac481a1919c94c9abed3b725181336da);
+    
+        var marker_e9d75aa381fb4fc4b88a89e96db81379 = L.marker(
+            [37.416158528914146, 126.68016426277377],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_ac481a1919c94c9abed3b725181336da);
+        
+    
+
+                var icon_3815266ff51649e4bd46a809c1d2950f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e9d75aa381fb4fc4b88a89e96db81379.setIcon(icon_3815266ff51649e4bd46a809c1d2950f);
+            
+    
+            var popup_d737e87181fe42e691a7af24c18021a6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a93d8a3c054d4d57a531f316acf781b6 = $(`<div id="html_a93d8a3c054d4d57a531f316acf781b6" style="width: 100.0%; height: 100.0%;">스시사쿠</div>`)[0];
+                popup_d737e87181fe42e691a7af24c18021a6.setContent(html_a93d8a3c054d4d57a531f316acf781b6);
+            
+
+            marker_e9d75aa381fb4fc4b88a89e96db81379.bindPopup(popup_d737e87181fe42e691a7af24c18021a6)
+            ;
+
+            
+        
+    
+        var marker_deb1c18b9d6144b79d38ce94f14a5701 = L.marker(
+            [37.544244199605934, 126.67506797021181],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_ac481a1919c94c9abed3b725181336da);
+        
+    
+
+                var icon_a5788c7461d94517a6a99f9bc472a9d0 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_deb1c18b9d6144b79d38ce94f14a5701.setIcon(icon_a5788c7461d94517a6a99f9bc472a9d0);
+            
+    
+            var popup_cae00e0d1dd8445f937f0827afd4e8c9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f6c6370c9b1349a0accf5fdcc2b53282 = $(`<div id="html_f6c6370c9b1349a0accf5fdcc2b53282" style="width: 100.0%; height: 100.0%;">양에꼬치다</div>`)[0];
+                popup_cae00e0d1dd8445f937f0827afd4e8c9.setContent(html_f6c6370c9b1349a0accf5fdcc2b53282);
+            
+
+            marker_deb1c18b9d6144b79d38ce94f14a5701.bindPopup(popup_cae00e0d1dd8445f937f0827afd4e8c9)
+            ;
+
+            
+        
+    
+        var marker_0b2a632d8b7444bcabef545d067933d0 = L.marker(
+            [37.59423046150264, 126.69726424501746],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_ac481a1919c94c9abed3b725181336da);
+        
+    
+
+                var icon_c1094327352e4fa6b413165191053f8b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'yellow',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0b2a632d8b7444bcabef545d067933d0.setIcon(icon_c1094327352e4fa6b413165191053f8b);
+            
+    
+            var popup_6c0497f6c2cf4b268bd7df1cceeb5c63 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e202e6b00a294b9d94d6a0cb736d04a5 = $(`<div id="html_e202e6b00a294b9d94d6a0cb736d04a5" style="width: 100.0%; height: 100.0%;">쭈꾸미 일당백</div>`)[0];
+                popup_6c0497f6c2cf4b268bd7df1cceeb5c63.setContent(html_e202e6b00a294b9d94d6a0cb736d04a5);
+            
+
+            marker_0b2a632d8b7444bcabef545d067933d0.bindPopup(popup_6c0497f6c2cf4b268bd7df1cceeb5c63)
+            ;
+
+            
+        
+    
+        var marker_fda8d381aaa946e7a712d1c2fe8ba1b9 = L.marker(
+            [37.41744822239008, 126.67580882175942],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_ac481a1919c94c9abed3b725181336da);
+        
+    
+
+                var icon_bfe5143a3b994811bf0bcdc85961195d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'yellow',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fda8d381aaa946e7a712d1c2fe8ba1b9.setIcon(icon_bfe5143a3b994811bf0bcdc85961195d);
+            
+    
+            var popup_b8e99a7e10c646779145907dc3f37cda = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_7c98b7ed0e0d408a8df2f8e4f6ff769d = $(`<div id="html_7c98b7ed0e0d408a8df2f8e4f6ff769d" style="width: 100.0%; height: 100.0%;">디벨로핑룸</div>`)[0];
+                popup_b8e99a7e10c646779145907dc3f37cda.setContent(html_7c98b7ed0e0d408a8df2f8e4f6ff769d);
+            
+
+            marker_fda8d381aaa946e7a712d1c2fe8ba1b9.bindPopup(popup_b8e99a7e10c646779145907dc3f37cda)
+            ;
+
+            
+        
+    
+        var marker_ea8b4d9a237e449685e0be3e66fe5f3b = L.marker(
+            [37.36958643859476, 126.72980375502868],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_ac481a1919c94c9abed3b725181336da);
+        
+    
+
+                var icon_5dc76b714d674a1abfd57d2c11000153 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'yellow',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ea8b4d9a237e449685e0be3e66fe5f3b.setIcon(icon_5dc76b714d674a1abfd57d2c11000153);
+            
+    
+            var popup_87098b32115a42ed8c9ddcd5a3303b42 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3f52058cced64452acb33a6b1a0976a2 = $(`<div id="html_3f52058cced64452acb33a6b1a0976a2" style="width: 100.0%; height: 100.0%;">고기원칙</div>`)[0];
+                popup_87098b32115a42ed8c9ddcd5a3303b42.setContent(html_3f52058cced64452acb33a6b1a0976a2);
+            
+
+            marker_ea8b4d9a237e449685e0be3e66fe5f3b.bindPopup(popup_87098b32115a42ed8c9ddcd5a3303b42)
+            ;
+
+            
+        
+</script>
